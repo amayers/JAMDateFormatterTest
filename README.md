@@ -3,6 +3,12 @@ JAMDateFormatterTest
 
 Simple OS X application used to easily test format strings for NSDateFormatter
 
+Enter a date string in the top text field, and a formatter string to test in the lower text field:
+![Screen Shot 1](http://mayers.us/misc/JAMDateFormatterTest/screenshots/ss-1.png)
+
+When you hit parse if the formatter was successful the date string in the top text field is converted into an NSDate and then passed through the same formatter back into a date and shown in the lower label so you can confirm it matches.
+![Screen Shot 1](http://mayers.us/misc/JAMDateFormatterTest/screenshots/ss-2.png)
+
 Licensing
 =================
 
