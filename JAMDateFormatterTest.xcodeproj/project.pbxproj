@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BE14159170625BA00184DB7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE14158170625BA00184DB7 /* Cocoa.framework */; };
+		6BE14163170625BA00184DB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BE14161170625BA00184DB7 /* InfoPlist.strings */; };
+		6BE14165170625BA00184DB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE14164170625BA00184DB7 /* main.m */; };
+		6BE14169170625BA00184DB7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6BE14167170625BA00184DB7 /* Credits.rtf */; };
+		6BE1416C170625BA00184DB7 /* JAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE1416B170625BA00184DB7 /* JAMAppDelegate.m */; };
+		6BE1416F170625BA00184DB7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE1416D170625BA00184DB7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BE14155170625BA00184DB7 /* JAMDateFormatterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAMDateFormatterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE14158170625BA00184DB7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6BE1415B170625BA00184DB7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6BE1415C170625BA00184DB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6BE1415D170625BA00184DB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BE14160170625BA00184DB7 /* JAMDateFormatterTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JAMDateFormatterTest-Info.plist"; sourceTree = "<group>"; };
+		6BE14162170625BA00184DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BE14164170625BA00184DB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BE14166170625BA00184DB7 /* JAMDateFormatterTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JAMDateFormatterTest-Prefix.pch"; sourceTree = "<group>"; };
+		6BE14168170625BA00184DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6BE1416A170625BA00184DB7 /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
+		6BE1416B170625BA00184DB7 /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
+		6BE1416E170625BA00184DB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE14152170625BA00184DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE14159170625BA00184DB7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE1414C170625BA00184DB7 = {
+			isa = PBXGroup;
+			children = (
+				6BE1415E170625BA00184DB7 /* JAMDateFormatterTest */,
+				6BE14157170625BA00184DB7 /* Frameworks */,
+				6BE14156170625BA00184DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE14156170625BA00184DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE14155170625BA00184DB7 /* JAMDateFormatterTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE14157170625BA00184DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE14158170625BA00184DB7 /* Cocoa.framework */,
+				6BE1415A170625BA00184DB7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BE1415A170625BA00184DB7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE1415B170625BA00184DB7 /* AppKit.framework */,
+				6BE1415C170625BA00184DB7 /* CoreData.framework */,
+				6BE1415D170625BA00184DB7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6BE1415E170625BA00184DB7 /* JAMDateFormatterTest */ = {
+			isa = PBXGroup;
+			children = (
+				6BE1416A170625BA00184DB7 /* JAMAppDelegate.h */,
+				6BE1416B170625BA00184DB7 /* JAMAppDelegate.m */,
+				6BE1416D170625BA00184DB7 /* MainMenu.xib */,
+				6BE1415F170625BA00184DB7 /* Supporting Files */,
+			);
+			path = JAMDateFormatterTest;
+			sourceTree = "<group>";
+		};
+		6BE1415F170625BA00184DB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE14160170625BA00184DB7 /* JAMDateFormatterTest-Info.plist */,
+				6BE14161170625BA00184DB7 /* InfoPlist.strings */,
+				6BE14164170625BA00184DB7 /* main.m */,
+				6BE14166170625BA00184DB7 /* JAMDateFormatterTest-Prefix.pch */,
+				6BE14167170625BA00184DB7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE14154170625BA00184DB7 /* JAMDateFormatterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE14172170625BA00184DB7 /* Build configuration list for PBXNativeTarget "JAMDateFormatterTest" */;
+			buildPhases = (
+				6BE14151170625BA00184DB7 /* Sources */,
+				6BE14152170625BA00184DB7 /* Frameworks */,
+				6BE14153170625BA00184DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAMDateFormatterTest;
+			productName = DateFormatTest;
+			productReference = 6BE14155170625BA00184DB7 /* JAMDateFormatterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE1414D170625BA00184DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JerryMayers;
+			};
+			buildConfigurationList = 6BE14150170625BA00184DB7 /* Build configuration list for PBXProject "JAMDateFormatterTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BE1414C170625BA00184DB7;
+			productRefGroup = 6BE14156170625BA00184DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE14154170625BA00184DB7 /* JAMDateFormatterTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE14153170625BA00184DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE14163170625BA00184DB7 /* InfoPlist.strings in Resources */,
+				6BE14169170625BA00184DB7 /* Credits.rtf in Resources */,
+				6BE1416F170625BA00184DB7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE14151170625BA00184DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE14165170625BA00184DB7 /* main.m in Sources */,
+				6BE1416C170625BA00184DB7 /* JAMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BE14161170625BA00184DB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE14162170625BA00184DB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BE14167170625BA00184DB7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE14168170625BA00184DB7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6BE1416D170625BA00184DB7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE1416E170625BA00184DB7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE14170170625BA00184DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BE14171170625BA00184DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BE14173170625BA00184DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAMDateFormatterTest/JAMDateFormatterTest-Prefix.pch";
+				INFOPLIST_FILE = "JAMDateFormatterTest/JAMDateFormatterTest-Info.plist";
+				PRODUCT_NAME = JAMDateFormatterTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BE14174170625BA00184DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JAMDateFormatterTest/JAMDateFormatterTest-Prefix.pch";
+				INFOPLIST_FILE = "JAMDateFormatterTest/JAMDateFormatterTest-Info.plist";
+				PRODUCT_NAME = JAMDateFormatterTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE14150170625BA00184DB7 /* Build configuration list for PBXProject "JAMDateFormatterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE14170170625BA00184DB7 /* Debug */,
+				6BE14171170625BA00184DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE14172170625BA00184DB7 /* Build configuration list for PBXNativeTarget "JAMDateFormatterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE14173170625BA00184DB7 /* Debug */,
+				6BE14174170625BA00184DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE1414D170625BA00184DB7 /* Project object */;
+}
