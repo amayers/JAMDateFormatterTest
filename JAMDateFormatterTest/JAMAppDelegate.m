@@ -35,6 +35,10 @@
     [dateFormatter setDateFormat:_formatText.stringValue];
     
     NSDate *date = [dateFormatter dateFromString:_dateText.stringValue];
-    [_parsedDateText setStringValue:[dateFormatter stringFromDate:date]];
+    NSString *string = [dateFormatter stringFromDate:date];
+    if (!string) {
+        string = @"Could not parse the date with supplied format.";
+    }
+    [_parsedDateText setStringValue:string];
 }
 @end
